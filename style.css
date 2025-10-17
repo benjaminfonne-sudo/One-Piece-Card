@@ -120,7 +120,7 @@ main {
     margin-top: auto;
 }
 .centre1 {
-    background-image: url(Images/Image\ millieu.jpg);
+    background-image: url(Image\ millieu.jpg);
     background-position-y: -50px;
     background-size: cover;
     width: 100%;
@@ -576,4 +576,5 @@ img {
     transform: translateY(0px);
 
 }
+
 
