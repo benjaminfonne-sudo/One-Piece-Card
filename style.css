@@ -100,7 +100,7 @@
 }
 /*Pâge entière background*/
 main {
-    background-image: url(Images/fond\ de\ site.jpg);
+    background-image: url(fond\ de\ site.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -300px
@@ -574,4 +574,5 @@ img {
 .carte4:hover .descriptioncarte4 a {
     opacity: 1;
     transform: translateY(0px);
+
 }
