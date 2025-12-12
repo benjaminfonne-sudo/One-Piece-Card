@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--on ne met jamais de contenu mis à part le style de la police/css-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+DE+SAS:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>One Piece Card</title>
+  </head>
+  <body>
+
+    <header>
+      <div id="Haut" class="div1">
+        <!--Barre des tâches Titres + bouton ancre-->
+        <div class="Titre">
+          <p class="Titre1">One piece Card</p>
+        </div>
+        <div class="bouton">
+          <div id="b1" class="bouton1 Black">
+            <!--bouton mene à desc-->
+            <a href="#hpage">Description</a>
+          </div>
+          <div id="b2" class="bouton2 Black">
+            <!--bouton mene au tableau-->
+            <a href="#tableau">Tableau</a>
+            <!--Bouton mene tableau-->
+          </div>
+          <div id="b3" class="bouton3 Black">
+            <!--Bouton mene aux cartes-->
+            <a href="#cartes">Cartes</a>
+          </div>
+        </div>
+        <div class="Burger">
+          <img id="Burgerlogo" class="Burgerlogo" src="Menu Blanc.png" alt="">
+        </div>
+      </div>
+    </header>
+    <main id="hpage">
+      <div id="BGMenu" class="BGMenu BlackC"></div>
+      <div id="Fond" class="centre">
+        <!--Centre de page-->
+        <div class="centre01">
+          <div class="centre1">
+            <!--Photo One Piece-->
+          </div>
+        </div>
+        <div class="centre02">
+          <div id="C2" class="centre2 BlackC">
+            <!--Texte à propos de one piece-->
+            <h1 id="para1" class="whiteT">Qu'est-ce que One Piece ?</h1>
+            <p id="para2" class="whiteT">One Piece est un anime d’aventure et de piraterie suivant Monkey D. Luffy, 
+              un jeune homme au corps élastique rêvant de devenir Roi des Pirates. 
+              Avec son équipage, il parcourt les mers à la recherche du légendaire trésor, 
+              le One Piece, affrontant marines, rivaux et dangers pour réaliser ses rêves.</p>
+          </div>
+          <div id="C3" class="centre3 BlackC">
+            <!--les pouvoirs ans one piece explications-->
+            <h2 id="para3" class="whiteT">Les Pouvoirs dans One Piece</h2>
+            <p id="para4" class="whiteT">Dans One Piece, de nombreux personnages possèdent des pouvoirs issus des Fruits du Démon, 
+              qui offrent des capacités surnaturelles comme se transformer en animal, 
+              contrôler le feu ou devenir élastique, mais empêchent de nager. 
+              À cela s’ajoute le Haki, une énergie mystérieuse permettant de sentir la présence des autres, 
+              renforcer son corps ou même repousser les attaques, 
+              rendant les combats encore plus stratégiques et intenses.</p>
+          </div>
+        </div>
+      </div>
+      <div class="BTN">
+         <button class="Bouton" onclick="WhiteMode()">
+          <img id="BoutonIMG" src="Clair.png">
+         </button>
+        </div>
+      <div id="tableau" class="tableau">
+        <table>
+          <!--tableau compétence et personnage-->
+          <caption id="Titre01" class="Black1">
+            Les cartes et leurs charactéristiques
+          </caption>
+          <tr id="tableau2" class="whiteT BlackC">
+            <!--Entête-->
+            <th>Nom</th>
+            <th>Type</th>
+            <th>Particularité</th>
+          </tr>
+          <tr id="tableau3" class="whiteT BlackC">
+            <!--Monkey D Luffy-->
+            <td>Monkey D Luffy</td>
+            <td>Homme en caoutchou détennant un pouvoir (fruit du démon et Haki).</td>
+            <td>
+              Très fort en tchnique de combat, mais pas futé sur la discrétion
+              où l'infiltartion.
+            </td>
+          </tr>
+          <tr id="tableau4" class="whiteT BlackC">
+            <!--Dracule Mihawk-->
+            <td>Dracule Mihawk</td>
+            <td>Combattant avéré détennant aucun pouvoir (détient le Haki).</td>
+            <td>Prend un malin plaisir à combattre des ennemis plus faible.</td>
+          </tr>
+          <tr id="tableau5" class="whiteT BlackC">
+            <!--Partgas D Ace-->
+            <td>Portgas D Ace</td>
+            <td>Homme de feu, détenteur de pouvoir (fruit du démon).</td>
+            <td>
+              Très agile, impossible à touché sauf si l'ont détient le kaki.
+            </td>
+          </tr>
+          <tr id="tableau6" class="whiteT BlackC">
+            <!--roronoa zoro-->
+            <td>Roronoa Zoro</td>
+            <td>Sabreur de EAST Blue possédant aucun pouvoir (détient le haki).</td>
+            <td>Une force hors du commun, considéré souvent comme un démon.</td>
+          </tr>
+        </table>
+      </div>
+      <div class="cartesbase" id="cartes">
+        <div class="carte1">
+          <!--carte luffy-->
+          <img src="Luffy_card.jpg" />
+          <div class="descriptioncarte1">
+            <h3>Luffy</h3>
+            <p class="C1">
+              A pour ambition de devenir le Roi des pirates et de trouver le ONE
+              Piece
+            </p>
+            <a href="https://onepiece.fandom.com/wiki/Monkey_D._Luffy"
+              >Voir Plus</a
+            >
+          </div>
+        </div>
+        <div class="carte2">
+          <!--carte mihawk-->
+          <img src="Mihawk_card.jpg" />
+          <div class="descriptioncarte2">
+            <h3>Mihawk</h3>
+            <p class="C2">Considéré comme le plus grand sabreur de ce monde</p>
+            <a href="https://onepiece.fandom.com/wiki/Dracule_Mihawk"
+              >Voir Plus</a
+            >
+          </div>
+        </div>
+        <div class="carte3">
+          <!--Carte Ace-->
+          <img src="Ace_card.jpg" />
+          <div class="descriptioncarte3">
+            <h3>Ace</h3>
+            <p class="C3">
+              Le frère de coeur de Luffy, second de l'équipage de Barbe Blanche
+            </p>
+            <a href="https://onepiece.fandom.com/wiki/Portgas_D._Ace"
+              >Voir Plus</a
+            >
+          </div>
+        </div>
+        <div class="carte4">
+          <!--Carte Zoro-->
+          <img src="zoro_card.jpg" />
+          <div class="descriptioncarte4">
+            <h3>Zoro</h3>
+            <p class="C4">
+              A pour ambition de devenir le meilleur sabreur de ce monde: battre
+              Mihawk
+            </p>
+            <a href="https://onepiece.fandom.com/wiki/Roronoa_Zoro"
+              >Voir Plus</a
+            >
+          </div>
+        </div>
+      </div>
+      <footer id="Bas" class="bas BlackC">
+        <!--Bas de page-->
+        <div class="bash">
+          <p id="contact1" class="whiteT">Contact</p>
+        </div>
+        <div class="basb">
+          <div class="mail">
+            <!--Mail-->
+            <a href="#">Mail</a>
+          </div>
+          <div class="téléphone">
+            <!--Tel-->
+            <a href="#">Téléphone</a>
+          </div>
+          <div class="linkedin">
+            <!--Linkedin-->
+            <a href="#">Linkedin</a>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
